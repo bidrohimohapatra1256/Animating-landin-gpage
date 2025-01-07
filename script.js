@@ -61,6 +61,18 @@ opacity:0
  }
  cursorEffect()
  function page2Animation(){
-
+gsap.form(".elem h1",{
+    y:120,
+    stagger :0.2,
+    duration:1,
+    ScrollTrigger:{
+        trigger:"#page2",
+        scroller:"body",
+        start :"topc47%",
+        end:"top 46%",
+        // markers:true,
+        scrub:2
+    }
+})
  }
- page2Animation
+ page2Animation()
