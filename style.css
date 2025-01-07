@@ -1,0 +1,102 @@
+@font-face {
+    font-family:nb ;
+    src: url(./NBInternationalProBoo.woff2);
+}
+@font-face{
+    font-family: rejoy;
+    src: url(./Rejouice-Headline.woff2);
+}
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "NBInternationalproBoo";
+}
+html,body{
+    height: 100%;
+    width:100%;
+    /* background-color: aquamarine; */
+}
+body{
+    background-color: #FAF8F3;
+    
+}
+#main{
+
+}
+#page1{
+    height: 100vh;
+    width:100%;
+    /* background-color: red; */
+    position: relative;
+}
+#cursor{
+    height: 10vh;
+    width: 10vh;
+    background-color:#221f1e;
+    border-radius:50% ;
+    /* align-items: center; */
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cursor h5{
+    font-family: rejoy;
+    font-size: 20px;
+}
+#page1 video{
+height: 100%;
+width:100% ;
+object-fit: cover;
+position:absolute;
+}
+#page1content{
+    height: 100%;
+    width:100% ;
+    /* background-color: aqua; */
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-bottom:5vw ; */
+    
+}
+nav{
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1vw 0vw ;
+    width: 100%;
+    /* background-color: brown; */
+}
+nav h3{
+    font-family: nb;
+    font-size: 1vw;
+    font-weight: 100;
+  text-transform: uppercase;
+}
+nav h4{
+    font-family: nb;
+    font-size: 2vw;
+    font-weight:100 ;
+    text-transform: uppercase;
+}
+#page1content h1{
+    font-family:rejoy;
+    font-size: 25vw;
+    font-weight: 100;
+    
+    
+}
+#page1content h1 span{
+    font-family:rejoy;
+   
+    
+}
+
