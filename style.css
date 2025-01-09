@@ -132,5 +132,94 @@ nav h4{
     font-size: 4.2vw;
     font-weight: 500;
 }
+#page3{
+    height: 100vh;
+    width:100%;
+    position: relative;
+    padding: 3vw;
+}
+#page3top{
+    /* background-color: aqua; */
+    text-align: center;
 
+}
+#page3top h4{
+    margin-bottom: 1vw;
+    font-size:1.5vw ;
+    font-weight: 500;
+}
+#page3top h4 span{
+    font-size: .9vw;
+    color: white;
+    background-color: #000;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+#page3top h2{
+font-size: 9vw;
+font-weight: 500;
+font-family: rejoy;
+}
+#page3element{
+    height: 75vh;
+    margin-top: 2vw;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between
+   
+}
+#page3element .box{
+    box-sizing: border-box;
+    height: 100%;
+    width:33% ;
+    /* background-color: blue; */
 
+    position: relative;
+}
+#page3element .box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+ #page3element .box img{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    transition: all linear 1s ;
+     object-position: center; 
+/} 
+#page3element .box:hover img{ 
+    opacity: 0;
+} 
+#page4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    padding: 4vw 0;
+
+}
+#page4 h1{
+    font-size: 10vh;
+    font-family: rejoy;
+    font-weight: 100;
+    border-bottom-style:1px solid #191616;
+    
+}
+/* #page4 video{ 
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 35%;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 2vw 2vw;
+} */
